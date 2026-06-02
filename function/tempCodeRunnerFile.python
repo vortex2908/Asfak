@@ -1,0 +1,5 @@
+def front_back(str):
+  a = str[0]
+  b = str[len(str)-1]
+  return b+str[1:len(str)-1]+a
+print(front_back(""))
